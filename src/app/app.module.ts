@@ -3,10 +3,25 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgstyleComponent } from './components/ngstyle/ngstyle.component';
+import { CssComponent } from './components/css/css.component';
+import { ClasesComponent } from './components/clases/clases.component';
+import { ResaltadoDirective } from './directives/resaltado.directive';
+import { NgSwitchComponent } from './components/ng-switch/ng-switch.component';
+import { HomeComponent } from './components/home/home.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgstyleComponent,
+    CssComponent,
+    ClasesComponent,
+    ResaltadoDirective,
+    NgSwitchComponent,
+    HomeComponent,
+    
   ],
   imports: [
     BrowserModule,
